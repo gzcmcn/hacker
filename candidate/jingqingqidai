@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>敬请期待 - 乐子黑客收容所</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .profile img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>敬请期待</h1>
+    </header>
+    <nav>
+        <a href="../index.html">返回主页</a>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <h2>No.未知 敬请期待</h2>
+            <p>黑客</p>
+            <img src="../images/jingqingqidai.jpg" alt="敬请期待头像">
+            <p>敬请期待。</p>
+            <p>未知 票</p>
+        </div>
+        <div class="profile">
+            <h2>详细简介</h2>
+            <p>敬请期待</p>
+            <ul>
+                <li>擅长：未知</li>
+                <li>名言：未知</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>版权所有 © 2025 乐子黑客收容所</p>
+    </footer>
+</body>
+</html>
