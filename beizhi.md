@@ -1,6 +1,6 @@
 # 北执聊天截屏
 
- [聊天记录](https://markdown.com.cn)
+
 
 [聊天记录](https://www.helloimg.com/i/2025/02/06/67a4c0901834c.jpg)
 
