@@ -39,6 +39,22 @@
             <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 </head>
 <body>
+    <h1>请点击下方按钮在浏览器中打开</h1>
+    <p>由于微信限制，请复制链接并在浏览器中访问，或点击下方按钮跳转。</p>
+    <a href="https://chinahacker.us.kg" class="btn">在浏览器中打开</a>
+    <p>如果无法跳转，请手动复制以下链接到浏览器：</p>
+    <p><strong>https://chinahacker.us.kg</strong></p>
+
+    <script>
+        // 尝试自动跳转（部分浏览器可能不支持）
+        var isWeChat = /MicroMessenger/i.test(navigator.userAgent);
+        if (isWeChat) {
+            alert("请点击右上角菜单，选择在浏览器中打开。");
+        } else {
+            window.location.href = "https://chinahacker.us.kg";
+        }
+    </script>
+    
     <header>
         <h1>天域网安乐子&黑客收容所</h1>
     </header>
@@ -267,6 +283,5 @@
         <p>版权所有 © 2025 天域网安乐子&黑客收容所</p>
     </footer>
     
-<iframe src="redirect.html" width="100%" height="300" style="border: none;"></iframe>
 </body>
 </html>
